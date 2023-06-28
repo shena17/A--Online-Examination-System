@@ -1,0 +1,61 @@
+
+th {
+  padding-top: 25px;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #2b1b47;
+
+  width: auto;
+}
+
+.table1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.tablerow th {
+  width: auto;
+}
+
+td {
+  text-align: center;
+}
+.row2 {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 13px;
+  width: auto;
+}
+.row2:nth-child(even) {
+  background-color: #c27dbc;
+}
+.status {
+  color: red;
+}
+.delete {
+  background-color: rgb(111, 111, 216);
+  border-radius: 5px;
+  width: 80px;
+  margin-left: 15px;
+  border: none;
+}
+.update {
+  background-color: rgb(92, 230, 165);
+  border-radius: 5px;
+  width: 80px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  border: none;
+}
+.delete a,
+.update a {
+  text-decoration: none;
+  color: white;
+}
+.delete:hover,
+.update:hover {
+  background-color: black;
+}
